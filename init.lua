@@ -912,7 +912,7 @@ require('lazy').setup({
   },
 })
 
-vim.keymap.set('i', '<M-l>', 'copilot#Accept("\\<CR>")', {
+vim.keymap.set('i', '<tab>', 'copilot#Accept("\\<CR>")', {
   expr = true,
   replace_keycodes = false,
 })
